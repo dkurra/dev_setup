@@ -1,4 +1,10 @@
 git clone https://github.com/vim/vim.git
+git clone https://github.com/VundleVim/Vundle.vim.git
+cd ~
+mkdir ~/.vim
+mkdir ~/.vim/bundle
+cd ~
+mv ~/Vundle.vim  ~/.vim/bundle
 cd vim/
 make clean distclean
 
