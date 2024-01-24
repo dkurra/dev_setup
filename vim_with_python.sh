@@ -1,3 +1,5 @@
+sudo apt-get update
+sudo apt-get install tmux libncurses-dev
 cd ~
 git clone https://github.com/vim/vim.git
 git clone https://github.com/VundleVim/Vundle.vim.git
